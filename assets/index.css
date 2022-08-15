@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'League Spartan', sans-serif;
+    /* box-sizing: border-box; */
 }
 body {
     display: flex;
@@ -9,9 +10,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: white;
     background-image: 
         url("../images/bg-pattern-top-desktop.svg"),
-        url("../images/bg-pattern-bottom-mobile.svg");
+        url("../images/bg-pattern-bottom-desktop.svg");
     background-repeat: no-repeat, no-repeat;   
     background-position: 0% 0%, 100% 100%;
 }
