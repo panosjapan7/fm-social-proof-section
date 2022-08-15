@@ -150,7 +150,7 @@ body {
 
 
 /* MOBILE */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1100px) {
     body {
         background-image: 
             url("../images/bg-pattern-top-mobile.svg"),
