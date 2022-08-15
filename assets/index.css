@@ -177,6 +177,7 @@ body {
             height: auto;
             display: flex;
             /* min-width: 100%; */
+            min-width: 100vw;
         }
             .top-part-container {
                 flex-direction: column;
