@@ -7,26 +7,43 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100vh;
+    background-image: 
+        url("../images/bg-pattern-top-desktop.svg"),
+        url("../images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat, no-repeat;   
+    background-position: 0% 0%, 100% 100%;
 }
+    
     .container {
-
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
     }
-
         .top-part-container {
             display: flex;
+            justify-content: space-between;
+            margin-bottom: 50px;
         }
             .text-container {
 
             }
                 .h1-container {
-
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: hsl(300, 43%, 22%);
+                    max-width: 350px;
+                    margin-bottom: 20px;
                 }
                 .paragraph-container {
-
+                    font-size: 15px;
+                    color: hsl(303, 10%, 53%);
+                    max-width: 350px;
+                    line-height: 20px;
                 }
             .reviews-container {
-
+                
             }
                 .review-container-one {
 
@@ -43,19 +60,23 @@ body {
 
 
         .bottom-part-container {
-
+            display: flex;
+            justify-content: space-between;
         }
             .card-one, .card-two, .card-three {
                 background-color: hsl(300, 43%, 22%);
+                width: 300px;
+                height: 200px;
+                border-radius: 10px;
             }
             .card-one {
 
             }
             .card-two {
-
+                margin-top: 15px;
             }
             .card-three {
-
+                margin-top: 30px;
             }
     
     footer {
